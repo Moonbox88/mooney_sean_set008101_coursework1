@@ -1,0 +1,47 @@
+body {background-image:url(images/zodiac.jpg);}
+#wrapper {background-image:url(images/parchment.jpg); margin:auto; max-width:1200px; min-width:980px;
+	border:10px #A58675 solid; border-radius:15px; font-size:medium; }
+#content {border-radius:6px;}
+header,nav,article,section,footer {display:block;}
+header {margin-top:0; border-bottom:10px #A58675 solid; height:280px; border-top-left-radius:6px;
+	border-top-left-radius:6px; background-repeat:no-repeat; background-position:center;
+		background-size:100% 100%; background-image:url('images/Jefferson Wheel Cypher.jpg');}
+h1 {text-shadow: 2px 1px #ff0000; position:absolute; font-family: "Times New Roman", Times, serif; margin-left:30px; 
+	font-size:650%; font-weight:bolder; color:black;}
+h4 {text-shadow: 1px 1px #ff0000; font-size:260%; text-align:center; font-weight:bolder; color:black;}
+nav {float:left; width:150px; height:75px;}
+p {text-shadow: 1px 1px #ff0000; color:#black; font-size:140%; text-align:left; font-weight:bolder;}
+a {font-size:120%;}
+textarea {border:1px solid #999999; width:90%; margin:5px 0;}
+.button2 { background-color: #4CAF50; color: white; padding: 9px 20px; text-align: center; display: inline-block;
+    font-size: 120%;}
+.button {background-color: #CD0000; color: white; padding: 9px 20px; text-align: center; display: inline-block;
+    font-size: 120%;}
+#leftcol {float:left; width:200px;}
+#rightcol {float:right; width:170px; height:190px;}
+#midcol {text-align:left; margin-left:200px; margin-right:200px; font-family: "Times New Roman", Times, serif;}
+#upper_midcol_left {float:left; width:46%; text-align: center;}
+#upper_midcol_right {float:right; width:50%; text-align: center;}
+#midcol-left {float:left; width:46%; text-align: center;}
+#midcol-right {float:right; width:50%; text-align: center;}
+#input_area {float:left; width:46%;}
+#output_area {float:right; width:50%;}
+br.clear {clear:both;}
+
+
+/* set horizontal button menu */
+nav ul {float:left; width:1000px; height:40px; margin-left:100px; text-align:center;
+padding-left:0; list-style-type:none;}
+/* set general horizontal menu button styles */
+nav ul li {display:inline-block;}
+li.btn {width:155px; line-height:20px; margin-bottom:3px; margin-right:5px; text-align:center;}
+/* set general access (anchor) styles */
+li.btn a {display:inline-block; width:150px; color:white; font-family:arial; 
+font-size:100%; font-weight:bold; text-decoration:none;}
+
+/* mouseout (default) */
+li.btn a {background:#1A9CE0; border:4px outset #AABAFF;}
+/* mouseover */
+li.btn a:hover {background:#0A4ADF; border:4px outset #8ABAFF;}
+/* mousedown */
+li.btn a:active {background:AECBFF; border:4px inset #AECBFF;}

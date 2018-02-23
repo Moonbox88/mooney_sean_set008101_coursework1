@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title>SET08101 - Coursework Assignment 1 - Atbash Cipher</title>
+	<meta charset=utf-8>
+		<link rel="stylesheet" href="style.css" type="text/css"/>
+				<!--[if lte IE 8]>
+				<script src="html5.js">
+				</script>
+				<![endif]-->
+	<head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>Cipher Corner</h1>
+			</header>
+				<nav>
+					<ul>
+						<li class="btn"><a href=index.html>Home page</a></li>
+						<li class="btn"><a href=caesar.html>The Caesar Cipher</a></li>
+						<li class="btn"><a href=atbash.html>The Atbash Cipher</a></li>
+					</ul>
+				</nav>
+					<br class="clear">
+				<div id="content">
+					<div id="leftcol">
+							
+					</div>
+					<div id="rightcol">
+						
+					</div>
+					<div id="midcol">
+						<h4>The Atbash Cipher</h4>
+						<p>The Atbash Cipher is purported to have been developed to encode the Hebrew Alphabet.</p>
+						<p>It is another mono-alphabetic cipher which takes the first letter in the alphabet and 
+						changes it to the last, the second for the second last, and so on. If we use the rule on the 
+						English alphabet, a becomes z, b becomes y, and so on.</p>
+							<br class="clear">
+						<div id="input_area">
+							<textarea rows="5" cols="70" id="atbash_message"></textarea>
+							<button class="button" id="atbash_decipher_button" onclick="atbash_cipher();">Encipher</button>
+						</div>
+						
+						<div id="output_area">
+							<p>
+							This is the encoded message:<br />
+							<div id="atbash_output"></div>
+							</p>
+						</div>
+					</div>
+				</div>
+					<br class="clear">
+			<footer>
+				<br class="clear">
+				<br class="clear">
+				<p>Author: Sean Mooney<br>Contact information: <a href="mailto:40283592@live.napier.ac.uk">
+				40283592@live.napier.ac.uk</a>.</p>
+			</footer>
+		</div>	
+			<script type="text/javascript" src="functions.js"></script>
+	</body>
+<html>
