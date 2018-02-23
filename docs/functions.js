@@ -101,8 +101,10 @@ function atbash_cipher() {
 			if (plain_text[idx].charCodeAt() >= 65 && plain_text[idx].charCodeAt() <= 90)
 			{
 				var temp = plain_text[idx].toLowerCase();
-				
-				cipher_text.push(plain_text[idx]);
+				current = alphabet.indexOf(temp);
+				var new_position = 25-current;
+				var new_letter = alphabet[new_position].toUpperCase();
+				cipher_text.push(new_letter);
 			}
 			else
 			{

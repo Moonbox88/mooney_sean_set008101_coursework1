@@ -1,11 +1,11 @@
-body {background-image:url(images/zodiac.jpg);}
-#wrapper {background-image:url(images/parchment.jpg); margin:auto; max-width:1200px; min-width:980px;
+body {background-image:url(Images/zodiac.jpg);}
+#wrapper {background-image:url(Images/parchment.jpg); margin:auto; max-width:1200px; min-width:980px;
 	border:10px #A58675 solid; border-radius:15px; font-size:medium; }
 #content {border-radius:6px;}
 header,nav,article,section,footer {display:block;}
 header {margin-top:0; border-bottom:10px #A58675 solid; height:280px; border-top-left-radius:6px;
 	border-top-left-radius:6px; background-repeat:no-repeat; background-position:center;
-		background-size:100% 100%; background-image:url('images/Jefferson Wheel Cypher.jpg');}
+		background-size:100% 100%; background-image:url('Images/Jefferson Wheel Cypher.jpg');}
 h1 {text-shadow: 2px 1px #ff0000; position:absolute; font-family: "Times New Roman", Times, serif; margin-left:30px; 
 	font-size:650%; font-weight:bolder; color:black;}
 h4 {text-shadow: 1px 1px #ff0000; font-size:260%; text-align:center; font-weight:bolder; color:black;}
