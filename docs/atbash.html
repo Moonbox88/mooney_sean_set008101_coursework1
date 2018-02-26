@@ -32,21 +32,24 @@
 					</div>
 					<div id="midcol">
 						<h4>The Atbash Cipher</h4>
-						<p>The Atbash Cipher is purported to have been developed to encode the Hebrew Alphabet.</p>
+						<p>The Atbash Cipher is purported to have been developed to 
+						<a href="https://en.wikipedia.org/wiki/Atbash">encode the Hebrew Alphabet.</a></p>
 						<p>It is another mono-alphabetic cipher which takes the first letter in the alphabet and 
 						changes it to the last, the second for the second last, and so on. If we use the rule on the 
 						English alphabet, a becomes z, b becomes y, and so on.</p>
+						<p>Have a go at using the Atbash Cipher below</p>
 							<br class="clear">
 						<div id="input_area">
+							<p>
+							Input:<br />
 							<textarea rows="5" cols="50" id="atbash_message"></textarea>
 							<button class="button" id="atbash_encode_button" onclick="atbash_cipher();">Encipher</button>
 							<button class="button2" id="atbash_decode_button" onclick="atbash_decipher();">Decipher</button>
 						</div>
-						
 						<div id="output_area">
 							<p>
-							This is the encoded message:<br />
-							<div id="atbash_output"></div>
+							Output:<br />
+							<textarea disabled rows="5" cols="70" id="atbash_output"></textarea>
 							</p>
 						</div>
 					</div>

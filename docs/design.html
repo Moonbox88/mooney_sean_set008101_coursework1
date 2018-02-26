@@ -2,6 +2,17 @@
 <html>
 	<head>
 <title>SET08101 - Coursework Assignment 1 - Design Page</title>
+		<script type="text/javascript">
+			window.onload = function () {
+            var ddl = document.getElementById('cipher_offset').getElementsByTagName("select")[0];
+            for (var i = 1; i <= 26; i++) {
+                var theOption = new Option;
+                theOption.text = i;
+                theOption.value = i;
+                ddl.options[i] = theOption;
+            }
+		};
+		</script>
 	<meta charset=utf-8>
 		<link rel="stylesheet" href="style.css" type="text/css"/>
 				<!--[if lte IE 8]>
@@ -14,7 +25,6 @@
 			<header>
 				<h1>Cipher Corner</h1>
 			</header>
-			<div id="content">
 				<nav>
 					<ul>
 						<li class="btn"><a href#=index.html>Home page</a></li>
@@ -25,25 +35,34 @@
 					<br class="clear">
 				<div id="content">
 					<div id="leftcol">
-							
+						
 					</div>
 					<div id="rightcol">
 						
 					</div>
 					<div id="midcol">
 						<h4>Design Page</h4>
+						<div id="upper_midcol_left">
 						<p>Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro. 
 						De carne cerebro lumbering animata cervello corpora quaeritis. Summus thalamus brains sit​​, morbo basal ganglia 
-						vel maleficia?</p>
-						<img alt="crypto-disk-us-ww1" src="Images/crypto-disk-us-ww1.jpg" style="width:330px;height:280px;">
-						<div id="midcol-left">
+						vel maleficia?Lucio fulci tremor est dark vivos magna. Expansis creepy arm yof darkness ulnis witchcraft missing 
+						carnem armis Kirkman Moore and Adlard caeruleum in locis.</p>
+						</div>
+						<img align="right" alt="caesar" src="Images/Caesar.jpg" style="width:265px;height:310px;">
+						<br class="clear">
 						<p>Medulla lucio brains fulci tremor locus coeruleus est dark vivos lateral geniculate nucleus magna. Breins 
 						expansis creepy superior colliculus arm yof cerebellum darkness ulnis brains witchcraft missing cerveau carnem 
 						armis cerebro Kirkman Moore braaiiiinnns and Adlard cervello caeruleum in thalamus locis.</p>
+							<br class="clear">
 						<div id="input_area">
+							<div id="cipher_offset">
+								<select id="caesar_offset" name="caesar_offset_select" class="number_dropdown"> 
+								<option value="0"><--Select Caesar Offset--></option>
+								</select>
+							</div>
 							<textarea rows="5" cols="70" id="message"></textarea>
-							<button class="button2" id="encode_button" onclick="encipher();">Encipher</button>
-							<button class="button" id="decode_button" onclick="decipher();">Decipher</button>
+							<button class="button" id="caesar_encode_button" onclick="cipher();">Encipher</button>
+							<button class="button2" id="caesar_decode_button" onclick="decipher();">Decipher</button>
 						</div>
 						
 						<div id="output_area">
@@ -52,16 +71,16 @@
 							<div id="output"></div>
 							</p>
 						</div>
-						</div>
 					</div>
 				</div>
-		<br class="clear">
+					<br class="clear">
 			<footer>
 				<br class="clear">
 				<br class="clear">
-				<p>Author: Sean Mooney<br>Contact information: <a href="mailto:40283592@live.napier.ac.uk">
-				40283592@live.napier.ac.uk</a>.</p>
+				<!--<p>Author: Sean Mooney<br>Contact information: <a href="mailto:40283592@live.napier.ac.uk">
+				40283592@live.napier.ac.uk</a>.</p>-->
 			</footer>
 		</div>	
+		<script type="text/javascript" src="functions.js"></script>
 	</body>
 <html>

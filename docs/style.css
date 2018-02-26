@@ -12,11 +12,9 @@ h4 {text-shadow: 1px 1px #ff0000; font-size:260%; text-align:center; font-weight
 nav {float:left; width:150px; height:75px;}
 p {text-shadow: 1px 1px #ff0000; color:#black; font-size:140%; text-align:left; font-weight:bolder;}
 a {font-size:120%;}
-textarea {border:1px solid #999999; width:90%; margin:5px 0;}
-.button2 { background-color: #4CAF50; color: white; padding: 9px 20px; text-align: center; display: inline-block;
-    font-size: 120%;}
-.button {background-color: #CD0000; color: white; padding: 9px 20px; text-align: center; display: inline-block;
-    font-size: 120%;}
+textarea {border:1px solid #999999; width:90%; margin:5px 0; font-size:140%; font-weight:bold;}
+figcaption {display: block; font-size:110%; font-weight:bold; text-align: right; }
+	
 #leftcol {float:left; width:200px;}
 #rightcol {float:right; width:170px; height:190px;}
 #midcol {text-align:left; margin-left:200px; margin-right:200px; font-family: "Times New Roman", Times, serif;}
@@ -26,6 +24,12 @@ textarea {border:1px solid #999999; width:90%; margin:5px 0;}
 #midcol-right {float:right; width:50%; text-align: center;}
 #input_area {float:left; width:46%;}
 #output_area {float:right; width:50%;}
+
+.button2 { background-color: #4CAF50; color: white; padding: 9px 20px; text-align: center; display: inline-block;
+    font-size: 120%;}
+.button {background-color: #CD0000; color: white; padding: 9px 20px; text-align: center; display: inline-block;
+    font-size: 120%;}
+	
 br.clear {clear:both;}
 
 
